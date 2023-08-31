@@ -34,13 +34,19 @@ Clone the repository and install the dependencies.
 ```bash
 $ npm install
 ```
-Generar la carpeta dist, para su deploy en AWS 
 ## Running the app
 
 ```bash
 # development
 $ npm run start
+```
+## Importante para el deploy en AWS
+
 # deployment
+```
+Instalar las dependencias y
+Generar la carpeta dist, para su deploy en AWS 
+
 $ npm run build
 $ sls deploy 
 ```
